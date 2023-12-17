@@ -1,0 +1,65 @@
+/*These are for the table*/
+tr:nth-child(even) {
+    background-color: darksalmon;
+}
+
+th,tr {
+    font-size: 18px;
+}
+
+
+#menutable {
+    justify: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 80vh;
+}
+
+/*These are for the common areas of all 3 pages*/
+#lunch-site {
+    padding: 30px;
+    border-style: double;
+    border-width: 100%;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+/*These are for the navigation bar*/
+#navbar {
+    background-color: darksalmon ;
+    text-align: left;
+}
+
+.nav {
+    display: inline;
+    margin: 0 10px;
+    color: rgb(4, 4, 59);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: darksalmon;
+    font-size: 18px;
+    text-align: left;
+}
+
+#writing {
+    background-color: darksalmon;
+    margin:none;
+}
+
+/*These are for the the More Info page*/
+input[type=submit] {
+    background-color: darksalmon;
+    border: 3px;
+    color:black;
+    padding: 10px 20px;
+    text-decoration:none;
+}
+
+input[type=text] {
+    padding: 10px 20px
+}
