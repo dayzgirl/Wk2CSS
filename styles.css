@@ -1,4 +1,4 @@
-/*These are for the table*/
+/*These are for the table on Page 2 that contains the menu*/
 tr:nth-child(even) {
     background-color: darksalmon;
 }
